@@ -67,5 +67,10 @@
     </Content>
     <Content Include="WordCards.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

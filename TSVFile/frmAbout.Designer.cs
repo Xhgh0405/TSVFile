@@ -43,7 +43,7 @@ namespace TSVFile
             this.lblProductName.Font = new System.Drawing.Font("Microsoft JhengHei UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblProductName.Location = new System.Drawing.Point(22, 20);
             this.lblProductName.Name = "lblProductName";
-            this.lblProductName.Size = new System.Drawing.Size(139, 18);
+            this.lblProductName.Size = new System.Drawing.Size(132, 18);
             this.lblProductName.TabIndex = 0;
             this.lblProductName.Text = "TSV資料檔讀取程式";
             // 
@@ -52,7 +52,7 @@ namespace TSVFile
             this.lblVersion.AutoSize = true;
             this.lblVersion.Location = new System.Drawing.Point(22, 55);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(67, 15);
+            this.lblVersion.Size = new System.Drawing.Size(70, 15);
             this.lblVersion.TabIndex = 1;
             this.lblVersion.Text = "版本：1.0.0";
             // 
@@ -61,9 +61,9 @@ namespace TSVFile
             this.lblCopyright.AutoSize = true;
             this.lblCopyright.Location = new System.Drawing.Point(22, 84);
             this.lblCopyright.Name = "lblCopyright";
-            this.lblCopyright.Size = new System.Drawing.Size(122, 15);
+            this.lblCopyright.Size = new System.Drawing.Size(159, 15);
             this.lblCopyright.TabIndex = 2;
-            this.lblCopyright.Text = "Copyright © 2026";
+            this.lblCopyright.Text = "Copyright © 2026 by Xhgh";
             // 
             // lblCompany
             // 
