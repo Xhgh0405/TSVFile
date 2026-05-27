@@ -99,7 +99,13 @@ File -> Open
 - `.txt`
 - `.tsv`
 
+螢幕截圖
+<img width="1895" height="1001" alt="image" src="https://github.com/user-attachments/assets/bcdd146f-f6dc-48ad-8b99-1bdd6b3feb87" />
+
 開啟檔案後，程式會讀取檔案內容，並將資料顯示在主畫面的 `ListView` 中。
+
+螢幕截圖
+<img width="1912" height="1020" alt="image" src="https://github.com/user-attachments/assets/011882bf-9b06-46bb-90db-5fbd7cb62c87" />
 
 本版本已將開啟檔案視窗的篩選條件修改為預設同時顯示 `.txt` 與 `.tsv`，因此可以直接看到 `WordCards.txt`，不需要手動切換檔案類型。
 
@@ -146,6 +152,10 @@ Ctrl + F
 
 使用者輸入關鍵字後，程式會在目前已載入的資料中搜尋符合的文字。
 
+螢幕截圖
+<img width="1906" height="1018" alt="image" src="https://github.com/user-attachments/assets/4c3e491c-c1f1-4762-8605-8ae346c41a6f" />
+
+
 搜尋範圍包含：
 
 - 單字
@@ -154,6 +164,8 @@ Ctrl + F
 - 解釋
 
 只要其中一個欄位包含輸入的關鍵字，程式就會判定該筆資料符合搜尋條件，並自動選取該列。
+
+<img width="1871" height="1001" alt="image" src="https://github.com/user-attachments/assets/0616f154-090f-4ec1-b79e-f42b77e0f658" />
 
 ### Find Next
 
@@ -383,67 +395,5 @@ F3
 
 ---
 
-## 十四、搜尋範例
 
-假設目前資料如下：
-
-abacus    ˋæbəkəs    Sound\A\abacus.mp3    一種計算工具
-abandon   əˋbændən   Sound\A\abandon.mp3   放棄
-ability   əˋbɪlətɪ   Sound\A\ability.mp3   能力
-
-### 範例 1：搜尋完整英文單字
-
-輸入：
-
-abacus
-
-會找到：
-
-abacus
-
-### 範例 2：搜尋部分英文
-
-輸入：
-
-aba
-
-可能會找到：
-
-abacus
-abandon
-
-### 範例 3：搜尋中文解釋
-
-輸入：
-
-能力
-
-可能會找到：
-
-ability
-
-### 範例 4：搜尋音檔路徑
-
-輸入：
-
-Sound\A
-
-可能會找到多筆有相同路徑的資料。
-
----
-
-## 十五、修正版說明
-
-本版本修正與新增內容如下：
-
-1. `File -> Open` 預設會同時顯示 `.txt` 與 `.tsv`
-2. 若 `WordCards.txt` 已複製到輸出目錄，開啟視窗會預設選到 `WordCards.txt`
-3. 讀檔會自動判斷 UTF-8 / UTF-16
-4. 避免 Unicode 文字檔音標亂碼
-5. 新增 `Ctrl + F` 搜尋功能
-6. 新增 `F3` 搜尋下一筆功能
-7. 狀態列會顯示目前操作訊息
-8. 本版本沒有加入播放聲音功能，避免一般 `.txt` 檔不適用
-
----
 
